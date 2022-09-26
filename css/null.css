@@ -1,0 +1,43 @@
+/* Обнуляющий стиль */
+
+/* пропустив, див урок 3 тайминг  2.17.00*/
+*,
+::before,
+::after { 
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+	box-sizing: border-box;
+	/* забираємо всі відступи */
+}
+li {
+	list-style: none; 
+	/* забираємо нумерування у списку */
+}
+a,
+a:visited {
+	text-decoration: none;
+	/* забираємо підкреслення із силки */
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+	/* всі заголовки стають звичайними */
+}
+img {
+	vertical-align: top;
+	/* забираємо відступи на картинці */
+}
+body,
+html {
+	height: 100%;
+	line-height: 1;
+}

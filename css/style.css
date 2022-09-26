@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+.wrapper{
+	min-height: 100%;
+	max-width: 810px;
+	margin:20px auto;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+.main-title{
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 59px;
+	margin: 0px 0px 92px 0px;
+}
+.picture{
+	max-width: 810px;
+	margin: 0px 0px 60px 0px;
+}
+.text-bold{
+	font-weight: 700;
+	font-size: 20px;
+	color: #1E212C;
+	line-height: 30px;
+	margin: 0px 0px 24px 0px;
+}
+.text{
+	color:#424551;
+	line-height: 25.6px;
+	margin: 0px 0px 48px 0px;
+}
+.text3{
+	background: url(../img/bracesk.png)   no-repeat;
+	font-weight: 700;
+	font-size: 20px;
+	color:#1E212C;
+	line-height: 30px;
+	padding: 0px 0px 0px 58px;
+	margin: 0px 0px 48px 0px;
+}
+.text4{
+	color:#424551;
+	line-height: 25.6px;
+	margin: 0px 0px 24px 0px;
+}
+.list{
+	text-shadow:0px 3px 5px #9597a0 ;
+	color:#424551;
+	line-height: 160%;
+	margin: 0px 0px 24px 0px;
+}
+.list-1{
+	background: url(..//img/check.png) 0px 4px no-repeat;
+	padding: 0px 0px 0px 30px;
+}
+.text5{
+	color:#424551;
+	line-height: 160%;
+	margin: 0px 0px 24px 0px;
+}
